@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install deps
-      run: npm i
+      run: npm ci
     - name: Typecheck
       run: npm run tsc
     - name: Build
