@@ -1,6 +1,8 @@
 # parcel-react-ts
 
-A short example on how tu use Parcel with React and TypeScript
+[![Build](https://github.com/jreyes33/parcel-react-ts/workflows/Build/badge.svg)](https://github.com/jreyes33/parcel-react-ts/actions?query=workflow%3ABuild)
+
+A short example on how to use Parcel with React and TypeScript
 
 ## Running the example
 
