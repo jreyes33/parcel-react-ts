@@ -6,6 +6,7 @@
   "scripts": {
     "check": "npm run tsc && npm run build",
     "build": "parcel build --public-url . index.html",
+    "format": "prettier --write '**/*.ts?(x)'",
     "start": "parcel serve index.html",
     "tsc": "tsc --noEmit"
   },
