@@ -4,9 +4,10 @@
   "main": "index.tsx",
   "private": true,
   "scripts": {
-    "check": "npm run tsc && npm run build",
+    "check": "npm run format:check && npm run tsc && npm run build",
     "build": "parcel build --public-url . index.html",
     "format": "prettier --write '**/*.ts?(x)'",
+    "format:check": "prettier --check '**/*.ts?(x)'",
     "start": "parcel serve index.html",
     "tsc": "tsc --noEmit"
   },
