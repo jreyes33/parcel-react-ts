@@ -1,0 +1,21 @@
+#root {
+  padding: 20px 40px;
+
+  form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    max-width: 400px;
+
+    input {
+      margin: 10px 0;
+      width: 100%;
+    }
+
+    pre {
+      background-color: papayawhip;
+      padding: 15px;
+    }
+  }
+}
